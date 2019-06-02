@@ -7,82 +7,82 @@ from bs4 import BeautifulSoup
 import time, random, sys, re, os, json, subprocess, threading, string, codecs, requests, tweepy, ctypes, urllib, urllib2, wikipedia
 
 cl = LINETCR.LINE()
-cl.login(token="EnQtcXF8Da5pdHS5nrbb.X3+sw1N25wpytXm08+7rcW.oHRsR1eKTfwLHbiLTd1pp8K9AUxvQ5y//koUEosxbiA=")
+cl.login(token="EFdVDrpZrFGLbwYDJcNd.FNHorp+JvbRkZyckEPh7tq./S7BwZX7sqQ3vuT8NI7oesfxZXN9h51K/sqJR0VRGvw=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Ent2LGFcmZNDegiuF2R3.C3uxU5NNlVYFHuNw06LZCW.gAs57AujlCOa7HvEgfhCeCWr0PBpne92C+m9lWKdpkU=")
+ki.login(token="EFkFh3TtGh62xU7NkjLe.yDd/ESRdVqhoxLV9ogigNG.AXqBkysqClJh8s7ta18B2wA84OUy1H71n9ng/7Tkwmo=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="Enmdi6vfIkGD6hiTvLPe.bXgVtu5kSGoBSNRPtLnC+G.IeOT15L4PCHn579Ykzc7Z3GzeKehB7lgdS6c4UIdr1M=")
+kk.login(token="EFu9Hh1URLsQbZnKBYl7.8d+/mNO13JPYidbljC3nvW.n00XvhkKGQpneEVqmvT7iEHxR+CJPs/oxJ50N/Vrpx8=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EnVcjCFfspx2Lh5hc4q5.PT0fO6oRxm3RJkmvumHfXq.s/QmelfyO1zlUv0pMDuK0zhMGDm46ZEzyGJV2keca1U=")
+kc.login(token="EF8afke6xIbrz9zrQhm9.NS79GkjXPX2SeYabibJEAq.kTo1diGfzJRyc8JILa2QkyhE378TLKgYe8SxeUFhZvU=")
 kc.loginResult()
 
 kd = LINETCR.LINE()
-kd.login(token="EnpZRgxumPNViyZAjuYc.SH8QKeJASCCT21I1OyjN+a.Qq/8ORJsiQUb+grqiWXsD2szHnhZrK7HLUxyK9syP10=")
+kd.login(token="EFWGhufW21zxaPAraK34.DEkgt/uG902ZLFOdfK325a.MVAUxFSkWMu6XPN/zIM0mNoHmydW1KOZLAxe27+8Iyg=")
 kd.loginResult()
 
 ke = LINETCR.LINE()
-ke.login(token="EnzrBO5iowNMcODTNtm5.Q0OoFYJHaR1Q19cGwwRPHq.DXk28gYLX3GYT4oh//BHWYo9++4Be/4iw/x7MqsOzR0=")
+ke.login(token="EFKWLTRbTHxTgvNJv7I3.oZKdd6x9QUrxeWqlIqSx8W.fvZ2ydJ21t1mwyrpaiOs0WnfDok407WzcaCZQwtLKfc=")
 ke.loginResult()
 
 kf = LINETCR.LINE()
-kf.login(token="En1FYtLsqoZFZYFdVTnc.IXqIA67Yp2TOiNIPBdv0la.HD0dzNcX5rfoI7qm6EwlCi88zbim+nSKyxo9w0omhQE=")
+kf.login(token="EFJA9JUz1uDWtTzZduF7.eFLiD/q6XzekkEvsWRD+LW.1Y9FU5tMzOqOphB/Nt73V6bXmbrn9xQh5LgOKBTQJBo=")
 kf.loginResult()
 
 kg = LINETCR.LINE()
-kg.login(token="Enx3b3R1eF4vJXzdgUH4.7UpnrSpbBLku34NMQquZja.x4YxKzrZJTYGjSGdwvJsXXLrlEMf7dinJfx3jLjKDx0=")
+kg.login(token="EFClaj2LaRuITUNNgMY0.nvD/uRjfRoBETK4ZOWhZSa.ttxcfFDhlDp1ym3iLRrhs+CnvKHuReHm01puf8rBC7Q=")
 kg.loginResult()
 
 kh = LINETCR.LINE()
-kh.login(token="EnCTNh4MU3Y9lUCy39rf.VhUBCNkLBNBEY+aAw6H0ZW.LpKAP5EFi4Tk46FilKnathQMY6QMsDHd+fIyAMEjVuQ=")
+kh.login(token="EF1d8o6RB87ctamKstX4./Coef04cSd1Ymaih+V2ADa.nx3SVWShgUy++0FRO6cz+naKmArXCEYICZqL9dbxr4s=")
 kh.loginResult()
 
 kj = LINETCR.LINE()
-kj.login(token="EnEAedLdibLoONaMGnK6.Zg2BQYNPKl2ksz44ZIytHG.DN8ar+4Il2MgVoaQ2Z53eFn3uUIEhk3iiPEpbwWPfBk=")
+kj.login(token="EFWgszudgNN6oD4rNhtd.CNZNgt3iUc3fYRhn7Cibxq.TH0GRFirYnBzb4F1K1cduJTmXe1+gbgIMx7Whkb3smM=")
 kj.loginResult()
 
 kl = LINETCR.LINE()
-kl.login(token="EnutRFKDWhrhTfkmXbo6.lEc1JaEVsI3l5xpWt5mAnG.x3HmElMPxHJz4X7H3hYa8KqEoaiNFIeDfFdRAGtP91Q=")
+kl.login(token="EFG3PKUd5Mntu9eaFBA2.XhCwJBakhq3WIw4uZqu08G.TJyUkJEPWIgjwx2sfIIbzDhjxC6yt+io8jDjR5AJp+8=")
 kl.loginResult()
 
 km = LINETCR.LINE()
-km.login(token="EnVpepsOV5mXyKu0QfZ6.muq18IWfKt5SEgFXA9fxfG.g0jDSEPT2yonBE4Xr9Ois1Se98T1Wyc7Xmt6l3Qf+CY=")
+km.login(token="EFWCvkjaDVQ5eZVVM42a.uA70OmZ6xGXhLjifkBHlgG.s/DcrljK2vI5x7uO4yVXgJ1ehSEPcgjhRXsgTGMNyyY=")
 km.loginResult()
 
 kn = LINETCR.LINE()
-kn.login(token="EncsNNIon04D5fsfBLK7./hD97gr5Xe1yxI05XUWpLW.DS9b4TgUIkCkYuRyCHpR3WYlbk7BQYMeJQFgwbyM9kg=")
+kn.login(token="EFmkeIqD7k7Dk2BeZ937.4ciXpOp+ngV1ye23dcM5vW.NPXKH780rRnRn8Ll0xvrb7yuUASZoZamGl+BuOpwGq0=")
 kn.loginResult()
 
 ko = LINETCR.LINE()
-ko.login(token="EnZbJaYLpeju4gDp6p16.jNAlelBFImiLiQ74z7TQLG.oJ9MFipwshDCwjRTuo4YiP62dvhK4seLO5eswqiok2A=")
+ko.login(token="EFA8a4KnP4LxOOf6LoRb.bAXEGo6vXQI0VRhomlb3MW.MavNXz7bg+Y8XzWyfN14x0PFNgFKgJfPud3SwmTeFTY=")
 ko.loginResult()
 
 kp = LINETCR.LINE()
-kp.login(token="EnLP2RWQwCI5pQiys4E6.JshQn3mNrRt2A6dgNKEFjG.KwxHyEsfNCb1QIj+M/jTMBYuZNgTE7j43498PgkGDq8=")
+kp.login(token="EFbN8OH9MyxtymETqeZ9.4vNGKfbDYS0efY/RcqAJMq.QgEZVoUpYwMDsdnwOosrY5+K6rU5BYodu5/E17zasfI=")
 kp.loginResult()
 
 kq = LINETCR.LINE()
-kq.login(token="EnXAAKwYb7Ypf4msjkIa.O5l+/QmuY6G/wgyx2fh9EG.cK7F5BNAtPBsyNLeJaMEofAxa/PBZINbLUMrYML5BKM=")
+kq.login(token="EFowlIJVXfBDBWBoBTu9.sq7xakrN1v28/yW8CSq42q.YCt86gRQATF6h5+f1o7/jPBmcN8WFaaTmVNuADVJKJg=")
 kq.loginResult()
 
 kr = LINETCR.LINE()
-kr.login(token="En30RAuEqV3Of0ffNFk7.EOr9BRGLhQ4vTNqpFe1hfW.oCAUGCHiDramWgJlkcdU3tTJODRJEB10Sq4/LXOo7Ec=")
+kr.login(token="EFiLi8tBIww3AV4Wrzr7.t/IdFcgcW7pVEtQdsL6WzW.jD99s6M3CtQexV34FMStz1DlG39+7tE/jsi8lZ3cKFA=")
 kr.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="Enet1M8ZA9Khg7DMeoN5.L1HeXTaxon2Sz1CLgvtfzq.lqwb5ibFWDEIqlis6gNOihSL9fLljv2MR6wYCxOQeMk=")
+ks.login(token="EFZyXJjaDM0VG53Znpld.JZJ/1Jhb9oyNKqIA+uiyFq.1oGg/5yHXWhjdHHhGJk1STM5Aki/6Fq3+GYQL6/pfqQ=")
 ks.loginResult()
 
 kt = LINETCR.LINE()
-kt.login(token="Eng8t5wROkreLDTDSfR1.Rp5lRKgcZmlY4wRBeDTpaq.hq5XIi1r1qffuANiD7WmnMiHYKcZ5+5GZSTwOiZPruY=")
+kt.login(token="EFKVfeUn9HQvbm5OGzn1.f04Z5tIwN8oo0wvkaqNsqq.D1ZfEQbGMqiTht1kO/cdyHh+M8URJRqABETuBivqeaU=")
 kt.loginResult()
 
-print "Bii Bot"
+print("Bii Bot")
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""
